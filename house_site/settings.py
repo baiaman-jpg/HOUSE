@@ -159,3 +159,4 @@ AUTH_USER_MODEL = "house_app.User"
 CORS_ALLOW_ALL_ORIGINS = True
 
 STATIC_URL = 'static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
